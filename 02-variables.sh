@@ -12,6 +12,8 @@ declare -r AGE=31
 #` est une accent grave, seul. 
 #Permet d'interpréter la valeur dune variable dans un appel de commande
 `mkdir $prenom`
+contenu=`ls`
+
 
 echo $1 $2 $# $0
 #salut banane 2 ./02-variables.sh
